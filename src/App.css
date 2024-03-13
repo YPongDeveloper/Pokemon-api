@@ -3,17 +3,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #d45fcc;
+  background-color: #df7fd9;
 }
 
 .pokemon-card {
   border: 1px solid #ccc;
+  border-radius: 10%;
   padding: 10px;
   margin: 10px;
-  text-align: center;
-  background-color: #2d8634;
+  text-align: left;
+  background-color: #60a765;
 }
 .imagesPokemon{
   width: 200px;
-  width: 200px;
+  height: 200px;
+}
+.imagesCard{
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-radius: 10%;
+}
+.typeImages{
+  width: 20px;
+  height: 20px;
 }
